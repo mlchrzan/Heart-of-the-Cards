@@ -3,3 +3,4 @@ first year pulls.csv
 combined_data.csv
 \Models
 bertopic_model
+.env
