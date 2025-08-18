@@ -5,5 +5,7 @@ combined_set_data.csv
 playground.ipynb
 \Models
 \OLD
+combine_data.py
+LLM_categorization_run2_output.txt
 bertopic_model
 .env
