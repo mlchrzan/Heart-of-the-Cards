@@ -9,3 +9,5 @@ combine_data.py
 LLM_categorization_run2_output.txt
 bertopic_model
 .env
+combined_full_data.csv
+graveyard.ipynb
