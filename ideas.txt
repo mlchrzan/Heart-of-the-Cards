@@ -1,0 +1,6 @@
+Could have a blog post about a text analysis
+- word counts
+- tf-idf 
+- topic model
+- card mentions network
+
