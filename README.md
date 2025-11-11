@@ -12,7 +12,9 @@ Auto Pull Date Adjustments for late pulls:
 - 2025_09_12 pulled on the morning of 2025_09_13
 - 2025_10_04 pulled on the morning of 2025_10_05
 - 2025_10_21 pulled right after midnight on 2025_10_22, 29 minutes after the 11:59 time noted
+- 2025_11_09 pulled right after midnight on 2025_11_08, 17 minutes after the 11:59 time noted
 
 
 ### Missed Dates
 - 2025_10_10
+- 2025-11_03
