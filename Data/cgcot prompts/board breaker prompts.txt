@@ -1,0 +1,4 @@
+Provide a concise summary of this YuGiOh card’s effect. Card text: {text}
+Given the card's effect and a summary of it, conscisely describe how it would typically be used in gameplay. Text and summary: {text}
+Does this card's effect interact with any cards on my opponent's field? If so, briefly describe how. Card info: {text}
+In YuGiOh, we define a "board breaker" as a card used to eliminate or answer established threats on the opponent's field; often most useful going second, able to remove, negate, or otherwise neutralize the opponent’s set-up, typically by affecting multiple cards at once. Based on your previous responses, rate how likely this card could be used as a board breaker by replying with one of the following categories: Very Likely a Board Breaker, Somewhat Likely a Board Breaker, Somewhat Unlikely a Board Breaker, Not Likely at All a Board Breaker. Justify your answer in one sentence. Previous answers: {text}

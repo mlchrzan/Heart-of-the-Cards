@@ -1,0 +1,13 @@
+“Understanding Yu-Gi-Oh! Card Categories - Handalyzer”:
+
+Starter: A card that can begin your main combo or main line of play, usually by itself. You can open with it and make meaningful progress towards your deck's main win condition, often not needing to pair it with another specific card.
+
+Handtrap: A card that disrupts the opponent, activated from the hand during either player’s turn (especially the opponent's). Its main role is to interact with or disrupt your opponent while not on the field.
+
+Extender: A card that continues or extends your plays, but typically requires something to have started already. Usually helps push through interruptions or get more value after your main combo starts.
+
+Board Breaker: A card used to eliminate or answer established threats on your opponent's field. Often most useful going second, able to remove, negate, or otherwise neutralize your opponent’s set-up.
+
+Garnet: A card included in a deck only to facilitate a combo/engine, but is undesirable to draw; it’s usually a “necessary brick”—required for combos but almost never wanted in your opening hand.
+
+None: If the card does not fit any of these categories.

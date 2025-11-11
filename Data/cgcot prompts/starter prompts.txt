@@ -1,0 +1,5 @@
+Provide a concise summary of this YuGiOh card’s effect. Card text: {text}
+Given the card's effect and a summary of it, conscisely describe how it would typically be used in gameplay. Text and summary: {text}
+Could this card be played without other cards being on the field or other effects being enacted? Text: {text}
+Would this card reliably enable a deck’s main combos or plays? Concisely describe any conditions or limitations affecting its consistency. Card text: {text}
+In YuGiOh, we define a "starter" as a card that can begin your main combo or main line of play, usually by itself; you can open with it and make meaningful progress towards your deck's main win condition, often not needing to pair it with another specific card. Based on your previous responses, rate how likely this card could be used as a starter by replying with one of the following categories: Very Likely a Starter, Somewhat Likely a Starter, Somewhat Unlikely a Starter, Not Likely at All a Starter. Justify your answer in one sentence. Previous answers: {text}

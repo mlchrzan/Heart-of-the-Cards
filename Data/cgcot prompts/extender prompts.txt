@@ -1,0 +1,4 @@
+Provide a concise summary of this YuGiOh card’s effect. Card text: {text}
+Given the card's effect and a summary of it, conscisely describe how it would typically be used in gameplay. Text and summary: {text}
+Does this card generate card advantage or resources (such as drawing, searching, or summoning additional monsters)? Concisely explain how it contributes to building a board or advancing a duelists' position. Card text: {text}
+In YuGiOh, we define an "extender" as a card that continues or extends plays, but typically requires something to have started already. They usually help push through interruptions or get more value after the main combo starts. Based on your previous responses, rate how likely this card could be used as a extender by replying with one of the following categories: Very Likely an Extender, Somewhat Likely an Extender, Somewhat Unlikely an Extender, Not Likely at All an Extender. Justify your answer in one sentence. Previous answers: {text}
