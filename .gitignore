@@ -12,3 +12,7 @@ bertopic_model
 combined_full_data.csv
 graveyard.ipynb
 *EU*
+automated_set_pull.py
+AUTOMATION_SETUP_GUIDE.md 
+run_automated_pull.bat
+run_automated_pull.ps1 
