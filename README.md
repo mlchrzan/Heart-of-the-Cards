@@ -19,7 +19,7 @@ Auto Pull Date Adjustments for late pulls:
 ## Nevers (Missed Dates)
 - 2025_10_10
 - 2025-11_03
-- 2025-11_??
+- 2025-11_15
 - 2025-11_26
 - 2025-11_27
 - 2025-11_29
