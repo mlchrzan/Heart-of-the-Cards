@@ -72,7 +72,7 @@ def load_most_recent_pull():
 
     return docs
 
-def last_full_pull():
+def last_full_pull(level='printing'):
     """
     Load the most recent full pull file from the Full Pulls folder.
     
@@ -92,6 +92,19 @@ def last_full_pull():
     most_recent_file = max(files, key=os.path.getmtime)
     print(f"Loading file: {most_recent_file}")
 
-    docs = pd.read_csv(most_recent_file)
+    data = pd.read_csv(most_recent_file)
 
-    return docs
+    if level == 'card':
+        # Write code to filter data to the oldest tcg_date for each card_id
+        data_all = data.copy()
+        data_all['tcg_date_dt'] = pd.to_datetime(data_all['tcg_date'], errors='coerce')
+        oldest_dates = data_all.groupby('card_id')['tcg_date_dt'].min().reset_index()
+        oldest_dates.columns = ['card_id', 'oldest_tcg_date']
+        data_all = data_all.merge(oldest_dates, on='card_id')
+        data = data_all[data_all['tcg_date_dt'] == data_all['oldest_tcg_date']]
+        data = data.drop(columns=['oldest_tcg_date'])
+        # Now for any card_id with multiple entries (e.g. multiple printings on the same day), keep only the first one
+        data = data.drop_duplicates(subset=['card_id'], keep='first')
+        print(f"Data shape after filtering to oldest tcg_date per card_id: {data.shape}")
+
+    return data
