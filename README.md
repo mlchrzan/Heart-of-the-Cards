@@ -17,13 +17,4 @@ Since I pull the code automatically using a script that runs whenever my laptop 
 - 2025_12_23 pulled on the morning of 2025_12_24
 - 2025_12_24 pulled on the morning of 2025_12_25
 
-And here are the dates I completely missed the pull for:
-
-- 2025_10_10
-- 2025-11_03
-- 2025-11_15
-- 2025-11_26
-- 2025-11_27
-- 2025-11_29
-- 2025-12-25
-- 2025_12_28
+You can also use the dates in the file names to indicate days that were completely missed. 
