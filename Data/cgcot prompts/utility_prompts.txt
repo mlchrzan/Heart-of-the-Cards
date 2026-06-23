@@ -1,0 +1,7 @@
+Provide a concise summary of this YuGiOh card's effect, including which mechanics of the game it interacts with. Card text: {text}
+
+Given the card's effect and a summary of it, concisely describe situations where this card would be useful, either in an opening hand or drawn into during a duel. Text and summary: {text}
+
+Does this card provide value, resources, or advantages regardless of a player's current board state or the opponent's setup? Concisely explain how it helps you progress or stabilize. Card text: {text}
+
+In YuGiOh, we define a card's "overall utility" as its general usefulness to have access to: cards that are valuable to draw or include in a player's opening hand across various situations, able to help you in multiple contexts or rough situations, and reliably providing benefit without strict conditions or requirements. Based on your previous responses, rate how likely this card would be considered high overall utility by replying with one of the following categories: Very High Utility, Moderately High Utility, Moderate Utility, Limited Utility. Justify your answer in one sentence. Previous answers: {text}
