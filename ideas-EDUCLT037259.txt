@@ -1,0 +1,16 @@
+Series 1: Demographics
+Card-level Stats/Demographics
+Basic Text Analysis
+- word counts
+- tf-idf 
+- topic model
+- card mentions network
+Set-level Analysis/Demographics
+Evaluating Card Utility (e.g. CGCoT on Card Effects)
+
+Series 2: Predicting Card Prices
+Predicting Banlist Changes
+Predicting Releases/Support
+Statistical Model of Price Changes (quasi design?)
+- What is the effect of banlist changes on prices? 
+Predicting Card Prices
