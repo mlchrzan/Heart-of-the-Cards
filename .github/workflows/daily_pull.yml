@@ -6,6 +6,10 @@ on:
     - cron: '0 1 * * *'
   workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  NODE_NO_WARNINGS: '1'
+
 jobs:
   pull-data:
     runs-on: ubuntu-latest
@@ -33,6 +37,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global core.safecrlf false
           git add Data/
           git commit -m "Auto-update card data: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           git push
