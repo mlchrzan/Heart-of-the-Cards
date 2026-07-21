@@ -2,8 +2,8 @@ name: Daily Card Data Pull
 
 on:
   schedule:
-    # Runs at 01:00 UTC daily (8:00 PM EST during Standard Time, 9:00 PM EDT during Daylight Saving Time)
-    - cron: '0 1 * * *'
+    # Runs at 21:00 UTC daily (4:00 PM EST during Standard Time, 5:00 PM EDT during Daylight Saving Time)
+    - cron: '0 21 * * *'
   workflow_dispatch: # Allows manual triggering from the GitHub Actions UI
 
 env:
